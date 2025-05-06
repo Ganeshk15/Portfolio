@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <h2>My<span> Portfolio</span></h2>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#hero"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+            <li><a href="#projects"><i class="fas fa-briefcase"></i> Projects</a></li>
+            <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+        </ul>
+        <div class="social-links">
+            <a href="https://github.com/Ganeshk15" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/ganesh-kunigiri" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <section id="hero">
+            <h2>Hi, I'm <span class="highlight">K Ganesh</span></h2>
+            <p>Frontend Developer </p>
+            <a href="#contact" class="btn">Hire Me</a>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Enthusiastic Frontend Developer with a strong foundation in HTML, CSS, and JavaScript. 
+                Skilled in building responsive and interactive web interfaces with a keen eye for design and user experience. 
+                Familiar with modern frameworks like React.js and adept at using CSS libraries for styling. 
+                Enthusiastic about learning new technologies and committed to writing clean, efficient code. 
+                Seeking an opportunity to apply my skills in a dynamic environment and contribute to innovative web solutions.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-card">
+                <h3>Tic-Tac-Toe</h3>
+            <ul>
+                <li><p>Developed an interactive Tic-Tac-Toe game using HTML, CSS, and JavaScript..</p></li>
+                <li><p>Implemented game logic to handle player moves, detect winners, and manage draws.</p></li>
+                <li><p>Used DOM manipulation for real-time updates and interactive gameplay.</p></li>
+                <li><p>Designed a responsive game board using CSS Grid for better user experience.</p></li>
+                <li><p>Added a restart feature to reset the game dynamically.</p></li>
+                <li><p>Utilized event handling to register player clicks and update game state.</p></li>
+            </ul>            
+            </div>
+            <div class="project-card">
+                <h3>Countdown Timer</h3>
+            <ul>
+                <li><p>Dynamic Countdown Display: Real-time updates with days, hours, minutes, and seconds.</p></li>
+                <li><p>Editable Title Bar: Users can rename the countdown event dynamically.</p></li>
+                <li><p>Reset Button: Resets the timer and clears input fields.</p></li>
+                <li><p>User Input for Date & Time: Allows users to set a custom countdown event.</p></li>
+                <li><p>Responsive Design: Works on both desktop and mobile devices.</p></li>
+                <li><p>Interactive UI: Styled with glowing effects and smooth animations.</p></li>
+            </ul>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>

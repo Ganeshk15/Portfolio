@@ -1,0 +1,116 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Sidebar Navigation */
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    background: linear-gradient(to bottom, #ff6b6b, #ffcc33);
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 3px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.logo h2 {
+    text-align: center;
+    font-size: 24px;
+}
+
+.logo span {
+    color: #222;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 20px 0;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-links li a i {
+    font-size: 20px;
+}
+
+/* Social Media Links */
+.social-links {
+    text-align: center;
+    position: relative;
+    top: -20px; /* Moves links up */
+    padding-bottom: 20px; /* Spacing below */
+}
+
+.social-links a {
+    color: white;
+    font-size: 28px; /* Increase icon size */
+    margin: 0 15px; /* Increase spacing */
+    transition: 0.3s ease-in-out;
+}
+
+.social-links a:hover {
+    color: #0d2de4; /* Dark hover effect */
+    transform: scale(1.2); /* Slight zoom effect */
+}
+
+
+/* Main Content */
+.main-content {
+    margin-left: 250px;
+    padding: 40px;
+    flex-grow: 1;
+}
+
+/* Hero Section */
+#hero {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Projects Section */
+.project-card {
+    background: white;
+    padding: 15px;
+    margin: 20px auto;
+    width: 650px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Contact Form */
+#contact form input, #contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#contact form button {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
